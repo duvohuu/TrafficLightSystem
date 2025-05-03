@@ -1,0 +1,30 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons8-robot-2-64.png</file>
+    <file>icons8-pause-50-white.png</file>
+    <file>icons8-pause-50-yellow.png</file>
+    <file>icons8-setting-50.png</file>
+    <file>icons8-success-48-green.png</file>
+    <file>icons8-warning-50-red.png</file>
+    <file>icons8-warning-50-white.png</file>
+    <file>icons8-success-48-white.png</file>
+    <file>icons8-maximize-window-50.png</file>
+    <file>connect.png</file>
+    <file>icons8-align-left-50.png</file>
+    <file>icons8-control-64.png</file>
+    <file>icons8-gui-50.png</file>
+    <file>icons8-minimize-50.png</file>
+    <file>icons8-mode-67.png</file>
+    <file>icons8-restore-down-52.png</file>
+    <file>icons8-search-50.png</file>
+    <file>icons8-setting-50.png</file>
+    <file>icons8-television-50.png</file>
+    <file>icons8-x-50.png</file>
+    <file>north_car.png</file>
+    <file>south_car.png</file>
+    <file>east_car.png</file>
+    <file>west_car.png</file>
+    <file>pikachu.png</file>
+    <file>github.png</file>
+  </qresource>
+</RCC>

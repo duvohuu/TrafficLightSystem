@@ -1,0 +1,53 @@
+* {
+    font: "MS Shell Dlg 2";
+    color: rgb(250, 250, 250); 
+}
+
+
+QLabel {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QLineEdit {
+    color: black;
+    font-size: 15px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+QComboBox{
+    border: 2px solid rgb(0, 48, 72); 
+    border-radius: 5px; 
+    font-size: 15px;
+    color: rgb(0, 0, 0); 
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(255, 255, 255);  
+    color: rgb(0, 0, 0);  
+}
+
+QPushButton {
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+#lb_status {
+    font-size: 14px;
+    font-weight: bold;
+    color:rgb(255, 0, 0);
+}
+
+#lb_icon_status {
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
