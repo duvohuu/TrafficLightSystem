@@ -5,9 +5,7 @@ nbproject/
 Makefile*
 Package-*
 private/
-cmake/**/CMake*
-cmake/**/.generated/*
-!cmake/**/user.cmake
+cmake/
 _build/
 .vscode/
 Traffic_Light.pdsprj.VHDU.duvoh.workspace
