@@ -1,0 +1,616 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"3503 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[s S141 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S141 . RD WR WREN WRERR . EEPGD ]
+"3502
+[u S140 `S141 1 ]
+[n S140 . . ]
+"3512
+[v _EECON1bits `VS140 ~T0 @X0 0 e@396 ]
+"3255
+[v _EEADR `Vuc ~T0 @X0 0 e@269 ]
+"3497
+[v _EECON1 `Vuc ~T0 @X0 0 e@396 ]
+"3243
+[v _EEDATA `Vuc ~T0 @X0 0 e@268 ]
+"77
+[s S6 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S6 . C DC Z nPD nTO RP IRP ]
+"86
+[s S7 :5 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S7 . . RP0 RP1 ]
+"91
+[s S8 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S8 . CARRY . ZERO ]
+"76
+[u S5 `S6 1 `S7 1 `S8 1 ]
+[n S5 . . . . ]
+"97
+[v _STATUSbits `VS5 ~T0 @X0 0 e@3 ]
+"463
+[s S20 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S20 . RBIF INTF T0IF RBIE INTE T0IE PEIE GIE ]
+"473
+[s S21 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S21 . . TMR0IF . TMR0IE ]
+"462
+[u S19 `S20 1 `S21 1 ]
+[n S19 . . . ]
+"480
+[v _INTCONbits `VS19 ~T0 @X0 0 e@11 ]
+"3542
+[v _EECON2 `Vuc ~T0 @X0 0 e@397 ]
+"52 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[; <" INDF equ 00h ;# ">
+"59
+[; <" TMR0 equ 01h ;# ">
+"66
+[; <" PCL equ 02h ;# ">
+"73
+[; <" STATUS equ 03h ;# ">
+"159
+[; <" FSR equ 04h ;# ">
+"166
+[; <" PORTA equ 05h ;# ">
+"228
+[; <" PORTB equ 06h ;# ">
+"290
+[; <" PORTC equ 07h ;# ">
+"352
+[; <" PORTD equ 08h ;# ">
+"414
+[; <" PORTE equ 09h ;# ">
+"452
+[; <" PCLATH equ 0Ah ;# ">
+"459
+[; <" INTCON equ 0Bh ;# ">
+"537
+[; <" PIR1 equ 0Ch ;# ">
+"593
+[; <" PIR2 equ 0Dh ;# ">
+"650
+[; <" TMR1 equ 0Eh ;# ">
+"657
+[; <" TMR1L equ 0Eh ;# ">
+"664
+[; <" TMR1H equ 0Fh ;# ">
+"671
+[; <" T1CON equ 010h ;# ">
+"765
+[; <" TMR2 equ 011h ;# ">
+"772
+[; <" T2CON equ 012h ;# ">
+"843
+[; <" SSPBUF equ 013h ;# ">
+"850
+[; <" SSPCON equ 014h ;# ">
+"920
+[; <" CCPR1 equ 015h ;# ">
+"927
+[; <" CCPR1L equ 015h ;# ">
+"934
+[; <" CCPR1H equ 016h ;# ">
+"941
+[; <" CCP1CON equ 017h ;# ">
+"1038
+[; <" RCSTA equ 018h ;# ">
+"1133
+[; <" TXREG equ 019h ;# ">
+"1140
+[; <" RCREG equ 01Ah ;# ">
+"1147
+[; <" CCPR2 equ 01Bh ;# ">
+"1154
+[; <" CCPR2L equ 01Bh ;# ">
+"1161
+[; <" CCPR2H equ 01Ch ;# ">
+"1168
+[; <" CCP2CON equ 01Dh ;# ">
+"1238
+[; <" ADRESH equ 01Eh ;# ">
+"1245
+[; <" ADCON0 equ 01Fh ;# ">
+"1346
+[; <" OPTION_REG equ 081h ;# ">
+"1416
+[; <" TRISA equ 085h ;# ">
+"1478
+[; <" TRISB equ 086h ;# ">
+"1540
+[; <" TRISC equ 087h ;# ">
+"1602
+[; <" TRISD equ 088h ;# ">
+"1664
+[; <" TRISE equ 089h ;# ">
+"1702
+[; <" PIE1 equ 08Ch ;# ">
+"1758
+[; <" PIE2 equ 08Dh ;# ">
+"1815
+[; <" PCON equ 08Eh ;# ">
+"1862
+[; <" OSCCON equ 08Fh ;# ">
+"1927
+[; <" OSCTUNE equ 090h ;# ">
+"1979
+[; <" SSPCON2 equ 091h ;# ">
+"2041
+[; <" PR2 equ 092h ;# ">
+"2048
+[; <" SSPADD equ 093h ;# ">
+"2055
+[; <" SSPMSK equ 093h ;# ">
+"2060
+[; <" MSK equ 093h ;# ">
+"2177
+[; <" SSPSTAT equ 094h ;# ">
+"2346
+[; <" WPUB equ 095h ;# ">
+"2416
+[; <" IOCB equ 096h ;# ">
+"2486
+[; <" VRCON equ 097h ;# ">
+"2556
+[; <" TXSTA equ 098h ;# ">
+"2642
+[; <" SPBRG equ 099h ;# ">
+"2704
+[; <" SPBRGH equ 09Ah ;# ">
+"2774
+[; <" PWM1CON equ 09Bh ;# ">
+"2844
+[; <" ECCPAS equ 09Ch ;# ">
+"2926
+[; <" PSTRCON equ 09Dh ;# ">
+"2970
+[; <" ADRESL equ 09Eh ;# ">
+"2977
+[; <" ADCON1 equ 09Fh ;# ">
+"3011
+[; <" WDTCON equ 0105h ;# ">
+"3064
+[; <" CM1CON0 equ 0107h ;# ">
+"3129
+[; <" CM2CON0 equ 0108h ;# ">
+"3194
+[; <" CM2CON1 equ 0109h ;# ">
+"3245
+[; <" EEDATA equ 010Ch ;# ">
+"3250
+[; <" EEDAT equ 010Ch ;# ">
+"3257
+[; <" EEADR equ 010Dh ;# ">
+"3264
+[; <" EEDATH equ 010Eh ;# ">
+"3271
+[; <" EEADRH equ 010Fh ;# ">
+"3278
+[; <" SRCON equ 0185h ;# ">
+"3335
+[; <" BAUDCTL equ 0187h ;# ">
+"3387
+[; <" ANSEL equ 0188h ;# ">
+"3449
+[; <" ANSELH equ 0189h ;# ">
+"3499
+[; <" EECON1 equ 018Ch ;# ">
+"3544
+[; <" EECON2 equ 018Dh ;# ">
+"6 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem `(v ~T0 @X0 1 ef3`*Vuc`*Euc`uc ]
+"7
+{
+[e :U ___eecpymem ]
+"6
+[v _to `*Vuc ~T0 @X0 1 r1 ]
+[v _from `*Euc ~T0 @X0 1 r2 ]
+[v _size `uc ~T0 @X0 1 r3 ]
+"7
+[f ]
+"8
+[v _cp `*Vuc ~T0 @X0 1 a ]
+[e = _cp _to ]
+"10
+[e $U 143  ]
+[e :U 144 ]
+[e $U 143  ]
+[e :U 143 ]
+[e $ != -> . . _EECON1bits 0 1 `i -> 0 `i 144  ]
+[e :U 145 ]
+"11
+[e = _EEADR -> _from `uc ]
+"12
+[e $U 146  ]
+[e :U 147 ]
+{
+"13
+[e $U 149  ]
+[e :U 150 ]
+[e $U 149  ]
+[e :U 149 ]
+[e $ != -> . . _EECON1bits 0 1 `i -> 0 `i 150  ]
+[e :U 151 ]
+"15
+[e =& _EECON1 -> -> 127 `i `Vuc ]
+"17
+[e = . . _EECON1bits 0 0 -> -> 1 `i `uc ]
+"18
+[e = *U ++ _cp * -> -> 1 `i `x -> -> # *U _cp `i `x _EEDATA ]
+"19
+[e =+ _EEADR -> -> 1 `i `Vuc ]
+"20
+}
+[e :U 146 ]
+"12
+[e $ != -> -- _size -> -> 1 `i `uc `i -> 0 `i 147  ]
+[e :U 148 ]
+"36
+[e :UE 142 ]
+}
+"39
+[v ___memcpyee `(v ~T0 @X0 1 ef3`*Euc`*Cuc`uc ]
+"40
+{
+[e :U ___memcpyee ]
+"39
+[v _to `*Euc ~T0 @X0 1 r1 ]
+[v _from `*Cuc ~T0 @X0 1 r2 ]
+[v _size `uc ~T0 @X0 1 r3 ]
+"40
+[f ]
+"41
+[v _ptr `*Cuc ~T0 @X0 1 a ]
+[e = _ptr _from ]
+"43
+[e $U 153  ]
+[e :U 154 ]
+[e $U 153  ]
+[e :U 153 ]
+[e $ != -> . . _EECON1bits 0 1 `i -> 0 `i 154  ]
+[e :U 155 ]
+"44
+[e = _EEADR -> - -> -> _to `uc `ui -> 1 `ui `uc ]
+"46
+[e =& _EECON1 -> -> 127 `i `Vuc ]
+"48
+[e $U 156  ]
+[e :U 157 ]
+{
+"49
+[e $U 159  ]
+[e :U 160 ]
+{
+"50
+[e $U 159  ]
+"51
+}
+[e :U 159 ]
+"49
+[e $ != -> . . _EECON1bits 0 1 `i -> 0 `i 160  ]
+[e :U 161 ]
+"52
+[e = _EEDATA *U ++ _ptr * -> -> 1 `i `x -> -> # *U _ptr `i `x ]
+"53
+[e =+ _EEADR -> -> 1 `i `Vuc ]
+"54
+[e = . . _STATUSbits 2 0 -> -> 0 `i `uc ]
+"55
+[e $ ! != -> . . _INTCONbits 0 7 `i -> 0 `i 162  ]
+{
+"56
+[e = . . _STATUSbits 2 0 -> -> 1 `i `uc ]
+"57
+}
+[e :U 162 ]
+"58
+[e = . . _INTCONbits 0 7 -> -> 0 `i `uc ]
+"59
+[e = . . _EECON1bits 0 2 -> -> 1 `i `uc ]
+"60
+[e = _EECON2 -> -> 85 `i `uc ]
+"61
+[e = _EECON2 -> -> 170 `i `uc ]
+"62
+[e = . . _EECON1bits 0 1 -> -> 1 `i `uc ]
+"63
+[e = . . _EECON1bits 0 2 -> -> 0 `i `uc ]
+"64
+[e $ ! != -> . . _STATUSbits 2 0 `i -> 0 `i 163  ]
+{
+"65
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"66
+}
+[e :U 163 ]
+"67
+}
+[e :U 156 ]
+"48
+[e $ != -> -- _size -> -> 1 `i `uc `i -> 0 `i 157  ]
+[e :U 158 ]
+"101
+[e :UE 152 ]
+}
+"104
+[v ___eetoc `(uc ~T0 @X0 1 ef1`*Ev ]
+"105
+{
+[e :U ___eetoc ]
+"104
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+"105
+[f ]
+"106
+[v _data `uc ~T0 @X0 1 a ]
+"107
+[e ( ___eecpymem (3 , , -> &U _data `*Vuc -> _addr `*Euc -> -> 1 `i `uc ]
+"108
+[e ) _data ]
+[e $UE 164  ]
+"109
+[e :UE 164 ]
+}
+"112
+[v ___eetoi `(ui ~T0 @X0 1 ef1`*Ev ]
+"113
+{
+[e :U ___eetoi ]
+"112
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+"113
+[f ]
+"114
+[v _data `ui ~T0 @X0 1 a ]
+"115
+[e ( ___eecpymem (3 , , -> -> &U _data `*uc `*Vuc -> _addr `*Euc -> -> 2 `i `uc ]
+"116
+[e ) _data ]
+[e $UE 165  ]
+"117
+[e :UE 165 ]
+}
+"119
+[p k ]
+"120
+[p n 2040 ]
+"122
+[v ___eetom `(um ~T0 @X0 1 ef1`*Ev ]
+"123
+{
+[e :U ___eetom ]
+"122
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+"123
+[f ]
+"124
+[v _data `um ~T0 @X0 1 a ]
+"125
+[e ( ___eecpymem (3 , , -> -> &U _data `*uc `*Vuc -> _addr `*Euc -> -> 3 `i `uc ]
+"126
+[e ) _data ]
+[e $UE 166  ]
+"127
+[e :UE 166 ]
+}
+"128
+[p o ]
+"131
+[v ___eetol `(ul ~T0 @X0 1 ef1`*Ev ]
+"132
+{
+[e :U ___eetol ]
+"131
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+"132
+[f ]
+"133
+[v _data `ul ~T0 @X0 1 a ]
+"134
+[e ( ___eecpymem (3 , , -> -> &U _data `*uc `*Vuc -> _addr `*Euc -> -> 4 `i `uc ]
+"135
+[e ) _data ]
+[e $UE 167  ]
+"136
+[e :UE 167 ]
+}
+"138
+[p k ]
+"139
+[p n 1516 ]
+"141
+[v ___eetoo `(uo ~T0 @X0 1 ef1`*Ev ]
+"142
+{
+[e :U ___eetoo ]
+"141
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+"142
+[f ]
+"143
+[v _data `uo ~T0 @X0 1 a ]
+"144
+[e ( ___eecpymem (3 , , -> -> &U _data `*uc `*Vuc -> _addr `*Euc -> -> 8 `i `uc ]
+"145
+[e ) _data ]
+[e $UE 168  ]
+"146
+[e :UE 168 ]
+}
+"147
+[p o ]
+"150
+[v ___ctoee `(uc ~T0 @X0 1 ef2`*Ev`uc ]
+"151
+{
+[e :U ___ctoee ]
+"150
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+[v _data `uc ~T0 @X0 1 r2 ]
+"151
+[f ]
+"152
+[e ( ___memcpyee (3 , , -> _addr `*Euc -> &U _data `*Cuc -> -> 1 `i `uc ]
+"153
+[e ) _data ]
+[e $UE 169  ]
+"154
+[e :UE 169 ]
+}
+"157
+[v ___itoee `(ui ~T0 @X0 1 ef2`*Ev`ui ]
+"158
+{
+[e :U ___itoee ]
+"157
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+[v _data `ui ~T0 @X0 1 r2 ]
+"158
+[f ]
+"159
+[e ( ___memcpyee (3 , , -> _addr `*Euc -> -> &U _data `*uc `*Cuc -> -> 2 `i `uc ]
+"160
+[e ) _data ]
+[e $UE 170  ]
+"161
+[e :UE 170 ]
+}
+"163
+[p k ]
+"164
+[p n 2040 ]
+"166
+[v ___mtoee `(um ~T0 @X0 1 ef2`*Ev`um ]
+"167
+{
+[e :U ___mtoee ]
+"166
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+[v _data `um ~T0 @X0 1 r2 ]
+"167
+[f ]
+"168
+[e ( ___memcpyee (3 , , -> _addr `*Euc -> -> &U _data `*uc `*Cuc -> -> 3 `i `uc ]
+"169
+[e ) _data ]
+[e $UE 171  ]
+"170
+[e :UE 171 ]
+}
+"171
+[p o ]
+"174
+[v ___ltoee `(ul ~T0 @X0 1 ef2`*Ev`ul ]
+"175
+{
+[e :U ___ltoee ]
+"174
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+[v _data `ul ~T0 @X0 1 r2 ]
+"175
+[f ]
+"176
+[e ( ___memcpyee (3 , , -> _addr `*Euc -> -> &U _data `*uc `*Cuc -> -> 4 `i `uc ]
+"177
+[e ) _data ]
+[e $UE 172  ]
+"178
+[e :UE 172 ]
+}
+"180
+[p k ]
+"181
+[p n 1516 ]
+"183
+[v ___otoee `(uo ~T0 @X0 1 ef2`*Ev`uo ]
+"184
+{
+[e :U ___otoee ]
+"183
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+[v _data `uo ~T0 @X0 1 r2 ]
+"184
+[f ]
+"185
+[e ( ___memcpyee (3 , , -> _addr `*Euc -> -> &U _data `*uc `*Cuc -> -> 8 `i `uc ]
+"186
+[e ) _data ]
+[e $UE 173  ]
+"187
+[e :UE 173 ]
+}
+"188
+[p o ]
+"191
+[v ___eetoft `(f ~T0 @X0 1 ef1`*Ev ]
+"192
+{
+[e :U ___eetoft ]
+"191
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+"192
+[f ]
+"193
+[v _data `f ~T0 @X0 1 a ]
+"194
+[e ( ___eecpymem (3 , , -> -> &U _data `*uc `*Vuc -> _addr `*Euc -> -> 3 `i `uc ]
+"195
+[e ) _data ]
+[e $UE 174  ]
+"196
+[e :UE 174 ]
+}
+"199
+[v ___eetofl `(d ~T0 @X0 1 ef1`*Ev ]
+"200
+{
+[e :U ___eetofl ]
+"199
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+"200
+[f ]
+"201
+[v _data `d ~T0 @X0 1 a ]
+"202
+[e ( ___eecpymem (3 , , -> -> &U _data `*uc `*Vuc -> _addr `*Euc -> -> 4 `i `uc ]
+"203
+[e ) _data ]
+[e $UE 175  ]
+"204
+[e :UE 175 ]
+}
+"207
+[v ___fttoee `(f ~T0 @X0 1 ef2`*Ev`f ]
+"208
+{
+[e :U ___fttoee ]
+"207
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+[v _data `f ~T0 @X0 1 r2 ]
+"208
+[f ]
+"209
+[e ( ___memcpyee (3 , , -> _addr `*Euc -> -> &U _data `*uc `*Cuc -> -> 3 `i `uc ]
+"210
+[e ) _data ]
+[e $UE 176  ]
+"211
+[e :UE 176 ]
+}
+"214
+[v ___fltoee `(d ~T0 @X0 1 ef2`*Ev`d ]
+"215
+{
+[e :U ___fltoee ]
+"214
+[v _addr `*Ev ~T0 @X0 1 r1 ]
+[v _data `d ~T0 @X0 1 r2 ]
+"215
+[f ]
+"216
+[e ( ___memcpyee (3 , , -> _addr `*Euc -> -> &U _data `*uc `*Cuc -> -> 4 `i `uc ]
+"217
+[e ) _data ]
+[e $UE 177  ]
+"218
+[e :UE 177 ]
+}

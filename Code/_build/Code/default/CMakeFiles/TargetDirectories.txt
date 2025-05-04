@@ -1,0 +1,4 @@
+D:/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/_build/Code/default/CMakeFiles/Code_default_default_XC8_compile.dir
+D:/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/_build/Code/default/CMakeFiles/Code_default_default.elf.dir
+D:/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/_build/Code/default/CMakeFiles/edit_cache.dir
+D:/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/_build/Code/default/CMakeFiles/rebuild_cache.dir
