@@ -16,8 +16,8 @@ void UART_Init(void) {
 }
 
 void UART_TxChar(char data) {
-    while (!TXIF);    // Wait for transmit buffer ready
-    TXREG = data;     // Send data
+    while (!TXIF);    
+    TXREG = data;     
 }
 
 void UART_TxString(const char* str) {
@@ -27,7 +27,7 @@ void UART_TxString(const char* str) {
 }
 
 void UART_TxTrafficState(void) {
-    char buffer[40]; // Giảm từ 50 xuống 40
+    char buffer[40];
     sprintf(buffer, "%d,%d,%d,%d,%d,",
             mode,
             (int)RED1, (int)YELLOW1, (int)GREEN1, countdown_NS);

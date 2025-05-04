@@ -11,7 +11,6 @@ volatile uint8_t last_mode = -1;
 volatile uint8_t road1_flag = 0;
 volatile uint8_t road2_flag = 0;
 
-// Định nghĩa System_Init
 void System_Init(void) {
     // Cấu hình chân Digital
     ANSEL = 0;
@@ -113,7 +112,6 @@ void __interrupt() ISR(void) {
     }
 }
 
-// Hàm main
 int main(void) {
     System_Init();
     UART_Init();

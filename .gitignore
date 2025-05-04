@@ -10,3 +10,4 @@ cmake/**/.generated/*
 !cmake/**/user.cmake
 _build/
 .vscode/
+Traffic_Light.pdsprj.VHDU.duvoh.workspace
