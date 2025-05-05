@@ -1,0 +1,521 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"5 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+[v i1___awmod __awmod `(i  1 e 2 0 ]
+"9 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"10 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"3 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+"5 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"4 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"8 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\lcd_i2c.c
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+"18
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+"23
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+"35
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+"55
+[v _I2C_Master_Write I2C_Master_Write `(uc  1 e 1 0 ]
+"79
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"102
+[v _IO_Expander_Write IO_Expander_Write `(v  1 e 1 0 ]
+"110
+[v _LCD_Write_4Bit LCD_Write_4Bit `(v  1 e 1 0 ]
+"119
+[v _LCD_CMD LCD_CMD `(v  1 e 1 0 ]
+"126
+[v _LCD_Write_Char LCD_Write_Char `(v  1 e 1 0 ]
+"133
+[v _LCD_Write_String LCD_Write_String `(v  1 e 1 0 ]
+"139
+[v _LCD_Set_Cursor LCD_Set_Cursor `(v  1 e 1 0 ]
+"182
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+"17 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\main.c
+[v _System_Init System_Init `(v  1 e 1 0 ]
+"42
+[v _Interrupt_Init Interrupt_Init `(v  1 e 1 0 ]
+"59
+[v _ISR ISR `II(v  1 e 1 0 ]
+"119
+[v _main main `(i  1 e 2 0 ]
+"26 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\traffic.c
+[v _Opposite_State Opposite_State `(v  1 e 1 0 ]
+"32
+[v _Auto_Mode_Timer Auto_Mode_Timer `(v  1 e 1 0 ]
+"92
+[v _Manual_Mode Manual_Mode `(v  1 e 1 0 ]
+"111
+[v _Midnight_Mode_Timer Midnight_Mode_Timer `(v  1 e 1 0 ]
+"126
+[v _ShiftOut_1Bit ShiftOut_1Bit `(v  1 e 1 0 ]
+"132
+[v _ShiftOut_1Byte ShiftOut_1Byte `(v  1 e 1 0 ]
+"139
+[v _Display_Countdown Display_Countdown `(v  1 e 1 0 ]
+"156
+[v _Clear_Display Clear_Display `(v  1 e 1 0 ]
+"7 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\uart.c
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+"18
+[v _UART_TxChar UART_TxChar `(v  1 e 1 0 ]
+"23
+[v _UART_TxString UART_TxString `(v  1 e 1 0 ]
+"164 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"226
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"288
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S129 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"480
+[s S138 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S143 . 1 `S129 1 . 1 0 `S138 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES143  1 e 1 @11 ]
+[s S189 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"551
+[u S197 . 1 `S189 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES197  1 e 1 @12 ]
+"648
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"669
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+"841
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"848
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+[s S227 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"1066
+[s S236 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S240 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S243 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[u S246 . 1 `S227 1 . 1 0 `S236 1 . 1 0 `S240 1 . 1 0 `S243 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES246  1 e 1 @24 ]
+"1131
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1138
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+[s S161 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1364
+[s S168 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S172 . 1 `S161 1 . 1 0 `S168 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES172  1 e 1 @129 ]
+"1414
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1476
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1538
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+[s S102 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1555
+[u S111 . 1 `S102 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES111  1 e 1 @135 ]
+"1662
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+[s S208 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"1716
+[u S216 . 1 `S208 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES216  1 e 1 @140 ]
+"1977
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+"2046
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"2175
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2640
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"3385
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3447
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3565
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"3568
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"3571
+[v _ACKSTAT ACKSTAT `VEb  1 e 0 @1166 ]
+"3670
+[v _BRG16 BRG16 `VEb  1 e 0 @3131 ]
+"3697
+[v _BRGH BRGH `VEb  1 e 0 @1218 ]
+"3838
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"4045
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"4081
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"4084
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"4087
+[v _RA2 RA2 `VEb  1 e 0 @42 ]
+"4090
+[v _RA3 RA3 `VEb  1 e 0 @43 ]
+"4093
+[v _RA4 RA4 `VEb  1 e 0 @44 ]
+"4096
+[v _RA5 RA5 `VEb  1 e 0 @45 ]
+"4108
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"4111
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"4135
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"4138
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"4141
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"4168
+[v _RCEN RCEN `VEb  1 e 0 @1163 ]
+"4228
+[v _RSEN RSEN `VEb  1 e 0 @1161 ]
+"4252
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"4261
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"4279
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"4315
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"4459
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"4462
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"4540
+[v _TXEN TXEN `VEb  1 e 0 @1221 ]
+"4546
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"4 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\lcd_i2c.c
+[v _RS RS `uc  1 e 1 0 ]
+[v _i2c_add i2c_add `uc  1 e 1 0 ]
+[v _BackLight_State BackLight_State `uc  1 e 1 0 ]
+"11 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\main.c
+[v _tick_500ms tick_500ms `VEuc  1 e 1 0 ]
+"12
+[v _last_mode last_mode `VEuc  1 e 1 0 ]
+"13
+[v _road1_flag road1_flag `VEuc  1 e 1 0 ]
+"14
+[v _road2_flag road2_flag `VEuc  1 e 1 0 ]
+"6 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\traffic.c
+[v _timer_counter timer_counter `VEus  1 e 2 0 ]
+"7
+[v _system_state system_state `VEuc  1 e 1 0 ]
+"8
+[v _exitsign exitsign `VEuc  1 e 1 0 ]
+"9
+[v _mode mode `VEuc  1 e 1 0 ]
+"10
+[v _countdown_NS countdown_NS `VEuc  1 e 1 0 ]
+"11
+[v _countdown_EW countdown_EW `VEuc  1 e 1 0 ]
+"13
+[v _led7seg_digits led7seg_digits `DC[10]uc  1 s 10 led7seg_digits ]
+"119 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"152
+} 0
+"7 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\uart.c
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+{
+"16
+} 0
+"17 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\main.c
+[v _System_Init System_Init `(v  1 e 1 0 ]
+{
+"40
+} 0
+"111 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\traffic.c
+[v _Midnight_Mode_Timer Midnight_Mode_Timer `(v  1 e 1 0 ]
+{
+"123
+} 0
+"92
+[v _Manual_Mode Manual_Mode `(v  1 e 1 0 ]
+{
+"108
+} 0
+"156
+[v _Clear_Display Clear_Display `(v  1 e 1 0 ]
+{
+"157
+[v Clear_Display@i i `i  1 a 2 4 ]
+"163
+} 0
+"133 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\lcd_i2c.c
+[v _LCD_Write_String LCD_Write_String `(v  1 e 1 0 ]
+{
+"135
+[v LCD_Write_String@i i `i  1 a 2 7 ]
+"133
+[v LCD_Write_String@Str Str `*.24uc  1 p 1 6 ]
+"137
+} 0
+"126
+[v _LCD_Write_Char LCD_Write_Char `(v  1 e 1 0 ]
+{
+[v LCD_Write_Char@Data Data `uc  1 p 1 wreg ]
+[v LCD_Write_Char@Data Data `uc  1 p 1 wreg ]
+"128
+[v LCD_Write_Char@Data Data `uc  1 p 1 5 ]
+"131
+} 0
+"139
+[v _LCD_Set_Cursor LCD_Set_Cursor `(v  1 e 1 0 ]
+{
+[v LCD_Set_Cursor@ROW ROW `uc  1 p 1 wreg ]
+[v LCD_Set_Cursor@ROW ROW `uc  1 p 1 wreg ]
+[v LCD_Set_Cursor@COL COL `uc  1 p 1 6 ]
+[v LCD_Set_Cursor@ROW ROW `uc  1 p 1 7 ]
+"156
+} 0
+"79
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+[v LCD_Init@I2C_Add I2C_Add `uc  1 p 1 wreg ]
+[v LCD_Init@I2C_Add I2C_Add `uc  1 p 1 wreg ]
+"81
+[v LCD_Init@I2C_Add I2C_Add `uc  1 p 1 8 ]
+"100
+} 0
+"182
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+{
+"186
+} 0
+"119
+[v _LCD_CMD LCD_CMD `(v  1 e 1 0 ]
+{
+[v LCD_CMD@CMD CMD `uc  1 p 1 wreg ]
+[v LCD_CMD@CMD CMD `uc  1 p 1 wreg ]
+"121
+[v LCD_CMD@CMD CMD `uc  1 p 1 5 ]
+"124
+} 0
+"110
+[v _LCD_Write_4Bit LCD_Write_4Bit `(v  1 e 1 0 ]
+{
+[v LCD_Write_4Bit@Nibble Nibble `uc  1 p 1 wreg ]
+[v LCD_Write_4Bit@Nibble Nibble `uc  1 p 1 wreg ]
+"113
+[v LCD_Write_4Bit@Nibble Nibble `uc  1 p 1 3 ]
+"117
+} 0
+"102
+[v _IO_Expander_Write IO_Expander_Write `(v  1 e 1 0 ]
+{
+[v IO_Expander_Write@Data Data `uc  1 p 1 wreg ]
+[v IO_Expander_Write@Data Data `uc  1 p 1 wreg ]
+"104
+[v IO_Expander_Write@Data Data `uc  1 p 1 1 ]
+"108
+} 0
+"55
+[v _I2C_Master_Write I2C_Master_Write `(uc  1 e 1 0 ]
+{
+[v I2C_Master_Write@data data `uc  1 p 1 wreg ]
+[v I2C_Master_Write@data data `uc  1 p 1 wreg ]
+"57
+[v I2C_Master_Write@data data `uc  1 p 1 0 ]
+"62
+} 0
+"35
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+{
+"39
+} 0
+"23
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+{
+"27
+} 0
+"18
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+{
+"21
+} 0
+"42 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\main.c
+[v _Interrupt_Init Interrupt_Init `(v  1 e 1 0 ]
+{
+"56
+} 0
+"8 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\lcd_i2c.c
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+{
+"16
+} 0
+"32 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\traffic.c
+[v _Auto_Mode_Timer Auto_Mode_Timer `(v  1 e 1 0 ]
+{
+"89
+} 0
+"26
+[v _Opposite_State Opposite_State `(v  1 e 1 0 ]
+{
+"29
+} 0
+"139
+[v _Display_Countdown Display_Countdown `(v  1 e 1 0 ]
+{
+[v Display_Countdown@countdown_NS countdown_NS `uc  1 p 1 wreg ]
+"143
+[v Display_Countdown@ones_EW ones_EW `uc  1 a 1 14 ]
+"142
+[v Display_Countdown@tens_EW tens_EW `uc  1 a 1 13 ]
+"141
+[v Display_Countdown@ones_NS ones_NS `uc  1 a 1 12 ]
+"140
+[v Display_Countdown@tens_NS tens_NS `uc  1 a 1 11 ]
+"139
+[v Display_Countdown@countdown_NS countdown_NS `uc  1 p 1 wreg ]
+[v Display_Countdown@countdown_EW countdown_EW `uc  1 p 1 8 ]
+[v Display_Countdown@countdown_NS countdown_NS `uc  1 p 1 15 ]
+"153
+} 0
+"5 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"132 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\traffic.c
+[v _ShiftOut_1Byte ShiftOut_1Byte `(v  1 e 1 0 ]
+{
+[v ShiftOut_1Byte@data data `uc  1 p 1 wreg ]
+"133
+[v ShiftOut_1Byte@i i `c  1 a 1 3 ]
+"132
+[v ShiftOut_1Byte@data data `uc  1 p 1 wreg ]
+[v ShiftOut_1Byte@data data `uc  1 p 1 2 ]
+"136
+} 0
+"126
+[v _ShiftOut_1Bit ShiftOut_1Bit `(v  1 e 1 0 ]
+{
+[v ShiftOut_1Bit@bitVal bitVal `uc  1 p 1 wreg ]
+[v ShiftOut_1Bit@bitVal bitVal `uc  1 p 1 wreg ]
+[v ShiftOut_1Bit@bitVal bitVal `uc  1 p 1 0 ]
+"130
+} 0
+"59 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"70
+[v ISR@data data `uc  1 a 1 12 ]
+"68
+[v ISR@buffer buffer `[8]uc  1 s 8 buffer ]
+"69
+[v ISR@index index `uc  1 s 1 index ]
+"116
+} 0
+"5 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v i1___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v i1___awmod@sign sign `uc  1 a 1 5 ]
+[v i1___awmod@counter counter `uc  1 a 1 4 ]
+"5
+[v i1___awmod@divisor divisor `i  1 p 2 0 ]
+[v i1___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"3 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+{
+[v strcmp@l l `*.4DCuc  1 p 1 0 ]
+[v strcmp@r r `*.24DCuc  1 p 1 1 ]
+"7
+} 0

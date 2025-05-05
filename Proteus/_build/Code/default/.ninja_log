@@ -1,0 +1,12 @@
+# ninja log v6
+32	378	7675980387943626	CMakeFiles/Code_default_default_XC8_compile.dir/D_/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/main.c.p1	8f840e143b8e27ac
+77	760	7675976298614118	CMakeFiles/Code_default_default_XC8_compile.dir/D_/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/traffic.c.p1	232d47cae4cc37b9
+378	2011	7675980407601449	Code_default_default.elf	da07682bd3878c3b
+378	2011	7675980407601449	D:/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/out/Code/default.elf	da07682bd3878c3b
+53	761	7675976298462038	CMakeFiles/Code_default_default_XC8_compile.dir/D_/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/lcd_i2c.c.p1	2c2313ce308395d1
+48	293	7681133206840824	CMakeFiles/Code_default_default_XC8_compile.dir/C_/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/main.c.p1	af2400af32c4e585
+56	294	7681133206910041	CMakeFiles/Code_default_default_XC8_compile.dir/C_/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/uart.c.p1	98c232cbada0e5c1
+44	296	7681133206787040	CMakeFiles/Code_default_default_XC8_compile.dir/C_/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/lcd_i2c.c.p1	6a59bd1ec478395e
+52	299	7681133206880046	CMakeFiles/Code_default_default_XC8_compile.dir/C_/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/traffic.c.p1	a6fca59cacc75e83
+299	2719	7681133233438983	Code_default_default.elf	dda3d5d2e62d9c9c
+299	2719	7681133233438983	C:/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/out/Code/default.elf	dda3d5d2e62d9c9c

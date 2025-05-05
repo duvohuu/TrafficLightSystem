@@ -1,0 +1,6 @@
+CMakeFiles\Code_default_default_XC8_compile.dir\C_\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\main.c.p1: \
+  C:/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/main.c \
+  C:/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/pic16f887.h \
+  C:/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/traffic.h \
+  C:/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/lcd_i2c.h \
+  C:/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/uart.h

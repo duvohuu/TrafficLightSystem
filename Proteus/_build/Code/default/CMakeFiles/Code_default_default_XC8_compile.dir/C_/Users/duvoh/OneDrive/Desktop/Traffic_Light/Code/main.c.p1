@@ -1,0 +1,664 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"3385 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[v _ANSEL `Vuc ~T0 @X0 0 e@392 ]
+"3447
+[v _ANSELH `Vuc ~T0 @X0 0 e@393 ]
+"1414
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"164
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+"1476
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"226
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"1538
+[v _TRISC `Vuc ~T0 @X0 0 e@135 ]
+"288
+[v _PORTC `Vuc ~T0 @X0 0 e@7 ]
+"1662
+[v _TRISE `Vuc ~T0 @X0 0 e@137 ]
+"1544
+[s S61 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S61 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"1543
+[u S60 `S61 1 ]
+[n S60 . . ]
+"1555
+[v _TRISCbits `VS60 ~T0 @X0 0 e@135 ]
+"4087
+[v _RA2 `Vb ~T0 @X0 0 e@42 ]
+"4081
+[v _RA0 `Vb ~T0 @X0 0 e@40 ]
+"4084
+[v _RA1 `Vb ~T0 @X0 0 e@41 ]
+"4096
+[v _RA5 `Vb ~T0 @X0 0 e@45 ]
+"4090
+[v _RA3 `Vb ~T0 @X0 0 e@43 ]
+"4093
+[v _RA4 `Vb ~T0 @X0 0 e@44 ]
+"463
+[s S20 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S20 . RBIF INTF T0IF RBIE INTE T0IE PEIE GIE ]
+"473
+[s S21 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S21 . . TMR0IF . TMR0IE ]
+"462
+[u S19 `S20 1 `S21 1 ]
+[n S19 . . . ]
+"480
+[v _INTCONbits `VS19 ~T0 @X0 0 e@11 ]
+"1350
+[s S54 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S54 . PS PSA T0SE T0CS INTEDG nRBPU ]
+"1358
+[s S55 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S55 . PS0 PS1 PS2 ]
+"1349
+[u S53 `S54 1 `S55 1 ]
+[n S53 . . . ]
+"1364
+[v _OPTION_REGbits `VS53 ~T0 @X0 0 e@129 ]
+"669
+[v _T1CON `Vuc ~T0 @X0 0 e@16 ]
+"648
+[v _TMR1 `Vus ~T0 @X0 0 e@14 ]
+"541
+[s S23 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S23 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ]
+"540
+[u S22 `S23 1 ]
+[n S22 . . ]
+"551
+[v _PIR1bits `VS22 ~T0 @X0 0 e@12 ]
+"1706
+[s S67 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S67 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE ]
+"1705
+[u S66 `S67 1 ]
+[n S66 . . ]
+"1716
+[v _PIE1bits `VS66 ~T0 @X0 0 e@140 ]
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"1042
+[s S41 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S41 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"1052
+[s S42 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S42 . RCD8 . RC9 ]
+"1057
+[s S43 :6 `uc 1 :1 `uc 1 ]
+[n S43 . . nRC8 ]
+"1061
+[s S44 :6 `uc 1 :1 `uc 1 ]
+[n S44 . . RC8_9 ]
+"1041
+[u S40 `S41 1 `S42 1 `S43 1 `S44 1 ]
+[n S40 . . . . . ]
+"1066
+[v _RCSTAbits `VS40 ~T0 @X0 0 e@24 ]
+"1138
+[v _RCREG `Vuc ~T0 @X0 0 e@26 ]
+"39 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\include\c99/string.h
+[v _strcmp `(i ~T0 @X0 0 ef2`*Cuc`*Cuc ]
+"24 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code/traffic.h
+[v _mode `Vuc ~T0 @X0 0 e ]
+"23
+[v _exitsign `Vuc ~T0 @X0 0 e ]
+"21
+[v _timer_counter `Vus ~T0 @X0 0 e ]
+[v F164 `(v ~T0 @X0 1 tf1`ul ]
+"20 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\include/builtins.h
+[v __delay `JF164 ~T0 @X0 0 e ]
+[p i __delay ]
+[p mainexit ]
+"6 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code/uart.h
+[v _UART_Init `(v ~T0 @X0 0 ef ]
+"31 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code/lcd_i2c.h
+[v _I2C_Master_Init `(v ~T0 @X0 0 e? ]
+"43
+[v _LCD_Init `(v ~T0 @X0 0 ef1`uc ]
+"54
+[v _LCD_Clear `(v ~T0 @X0 0 e? ]
+"47
+[v _LCD_Set_Cursor `(v ~T0 @X0 0 ef2`uc`uc ]
+"49
+[v _LCD_Write_String `(v ~T0 @X0 0 ef1`*uc ]
+"31 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code/traffic.h
+[v _Auto_Mode_Timer `(v ~T0 @X0 0 ef ]
+"32
+[v _Midnight_Mode_Timer `(v ~T0 @X0 0 ef ]
+"33
+[v _Manual_Mode `(v ~T0 @X0 0 ef ]
+"52 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[; <" INDF equ 00h ;# ">
+"59
+[; <" TMR0 equ 01h ;# ">
+"66
+[; <" PCL equ 02h ;# ">
+"73
+[; <" STATUS equ 03h ;# ">
+"159
+[; <" FSR equ 04h ;# ">
+"166
+[; <" PORTA equ 05h ;# ">
+"228
+[; <" PORTB equ 06h ;# ">
+"290
+[; <" PORTC equ 07h ;# ">
+"352
+[; <" PORTD equ 08h ;# ">
+"414
+[; <" PORTE equ 09h ;# ">
+"452
+[; <" PCLATH equ 0Ah ;# ">
+"459
+[; <" INTCON equ 0Bh ;# ">
+"537
+[; <" PIR1 equ 0Ch ;# ">
+"593
+[; <" PIR2 equ 0Dh ;# ">
+"650
+[; <" TMR1 equ 0Eh ;# ">
+"657
+[; <" TMR1L equ 0Eh ;# ">
+"664
+[; <" TMR1H equ 0Fh ;# ">
+"671
+[; <" T1CON equ 010h ;# ">
+"765
+[; <" TMR2 equ 011h ;# ">
+"772
+[; <" T2CON equ 012h ;# ">
+"843
+[; <" SSPBUF equ 013h ;# ">
+"850
+[; <" SSPCON equ 014h ;# ">
+"920
+[; <" CCPR1 equ 015h ;# ">
+"927
+[; <" CCPR1L equ 015h ;# ">
+"934
+[; <" CCPR1H equ 016h ;# ">
+"941
+[; <" CCP1CON equ 017h ;# ">
+"1038
+[; <" RCSTA equ 018h ;# ">
+"1133
+[; <" TXREG equ 019h ;# ">
+"1140
+[; <" RCREG equ 01Ah ;# ">
+"1147
+[; <" CCPR2 equ 01Bh ;# ">
+"1154
+[; <" CCPR2L equ 01Bh ;# ">
+"1161
+[; <" CCPR2H equ 01Ch ;# ">
+"1168
+[; <" CCP2CON equ 01Dh ;# ">
+"1238
+[; <" ADRESH equ 01Eh ;# ">
+"1245
+[; <" ADCON0 equ 01Fh ;# ">
+"1346
+[; <" OPTION_REG equ 081h ;# ">
+"1416
+[; <" TRISA equ 085h ;# ">
+"1478
+[; <" TRISB equ 086h ;# ">
+"1540
+[; <" TRISC equ 087h ;# ">
+"1602
+[; <" TRISD equ 088h ;# ">
+"1664
+[; <" TRISE equ 089h ;# ">
+"1702
+[; <" PIE1 equ 08Ch ;# ">
+"1758
+[; <" PIE2 equ 08Dh ;# ">
+"1815
+[; <" PCON equ 08Eh ;# ">
+"1862
+[; <" OSCCON equ 08Fh ;# ">
+"1927
+[; <" OSCTUNE equ 090h ;# ">
+"1979
+[; <" SSPCON2 equ 091h ;# ">
+"2041
+[; <" PR2 equ 092h ;# ">
+"2048
+[; <" SSPADD equ 093h ;# ">
+"2055
+[; <" SSPMSK equ 093h ;# ">
+"2060
+[; <" MSK equ 093h ;# ">
+"2177
+[; <" SSPSTAT equ 094h ;# ">
+"2346
+[; <" WPUB equ 095h ;# ">
+"2416
+[; <" IOCB equ 096h ;# ">
+"2486
+[; <" VRCON equ 097h ;# ">
+"2556
+[; <" TXSTA equ 098h ;# ">
+"2642
+[; <" SPBRG equ 099h ;# ">
+"2704
+[; <" SPBRGH equ 09Ah ;# ">
+"2774
+[; <" PWM1CON equ 09Bh ;# ">
+"2844
+[; <" ECCPAS equ 09Ch ;# ">
+"2926
+[; <" PSTRCON equ 09Dh ;# ">
+"2970
+[; <" ADRESL equ 09Eh ;# ">
+"2977
+[; <" ADCON1 equ 09Fh ;# ">
+"3011
+[; <" WDTCON equ 0105h ;# ">
+"3064
+[; <" CM1CON0 equ 0107h ;# ">
+"3129
+[; <" CM2CON0 equ 0108h ;# ">
+"3194
+[; <" CM2CON1 equ 0109h ;# ">
+"3245
+[; <" EEDATA equ 010Ch ;# ">
+"3250
+[; <" EEDAT equ 010Ch ;# ">
+"3257
+[; <" EEADR equ 010Dh ;# ">
+"3264
+[; <" EEDATH equ 010Eh ;# ">
+"3271
+[; <" EEADRH equ 010Fh ;# ">
+"3278
+[; <" SRCON equ 0185h ;# ">
+"3335
+[; <" BAUDCTL equ 0187h ;# ">
+"3387
+[; <" ANSEL equ 0188h ;# ">
+"3449
+[; <" ANSELH equ 0189h ;# ">
+"3499
+[; <" EECON1 equ 018Ch ;# ">
+"3544
+[; <" EECON2 equ 018Dh ;# ">
+"5 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code/pic16f887.h
+[p x FOSC  =  EXTRC_CLKOUT ]
+"6
+[p x WDTE  =  OFF        ]
+"7
+[p x PWRTE  =  OFF       ]
+"8
+[p x MCLRE  =  OFF       ]
+"9
+[p x CP  =  OFF          ]
+"10
+[p x CPD  =  OFF         ]
+"11
+[p x BOREN  =  ON        ]
+"12
+[p x IESO  =  OFF        ]
+"13
+[p x FCMEN  =  OFF       ]
+"14
+[p x LVP  =  OFF         ]
+"17
+[p x BOR4V  =  BOR40V    ]
+"18
+[p x WRT  =  OFF         ]
+"11 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\main.c
+[v _tick_500ms `Vuc ~T0 @X0 1 e ]
+[i _tick_500ms
+-> -> 0 `i `uc
+]
+"12
+[v _last_mode `Vuc ~T0 @X0 1 e ]
+[i _last_mode
+-> -U -> 1 `i `uc
+]
+"13
+[v _road1_flag `Vuc ~T0 @X0 1 e ]
+[i _road1_flag
+-> -> 0 `i `uc
+]
+"14
+[v _road2_flag `Vuc ~T0 @X0 1 e ]
+[i _road2_flag
+-> -> 0 `i `uc
+]
+"17
+[v _System_Init `(v ~T0 @X0 1 ef ]
+{
+[e :U _System_Init ]
+[f ]
+"19
+[e = _ANSEL -> -> 0 `i `uc ]
+"20
+[e = _ANSELH -> -> 0 `i `uc ]
+"23
+[e = _TRISA -> -> 0 `i `uc ]
+"24
+[e = _PORTA -> -> 0 `i `uc ]
+"27
+[e = _TRISB -> -> 7 `i `uc ]
+"28
+[e = _PORTB -> -> 0 `i `uc ]
+"31
+[e = _TRISC -> -> 0 `i `uc ]
+"32
+[e = _PORTC -> -> 0 `i `uc ]
+"33
+[e = _TRISE -> -> 0 `i `uc ]
+"34
+[e = . . _TRISCbits 0 3 -> -> 1 `i `uc ]
+"35
+[e = . . _TRISCbits 0 4 -> -> 1 `i `uc ]
+"38
+[e = _RA2 -> = _RA0 -> = _RA1 -> -> 0 `i `b `b `b ]
+"39
+[e = _RA5 -> = _RA3 -> = _RA4 -> -> 0 `i `b `b `b ]
+"40
+[e :UE 143 ]
+}
+"42
+[v _Interrupt_Init `(v ~T0 @X0 1 ef ]
+{
+[e :U _Interrupt_Init ]
+[f ]
+"44
+[e = . . _INTCONbits 0 4 -> -> 1 `i `uc ]
+"45
+[e = . . _OPTION_REGbits 0 4 -> -> 1 `i `uc ]
+"48
+[e = _T1CON -> -> 49 `i `uc ]
+"49
+[e = _TMR1 -> -> 3036 `i `us ]
+"50
+[e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
+"51
+[e = . . _PIE1bits 0 0 -> -> 1 `i `uc ]
+"54
+[e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
+"55
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"56
+[e :UE 144 ]
+}
+[v $root$_ISR `(v ~T0 @X0 0 e ]
+"59
+[v _ISR `(v ~T1 @X0 1 ef ]
+{
+[e :U _ISR ]
+[f ]
+"60
+[e $ ! != -> . . _PIR1bits 0 5 `i -> 0 `i 146  ]
+{
+"61
+[e $ ! || != -> . . _RCSTAbits 0 1 `i -> 0 `i != -> . . _RCSTAbits 0 2 `i -> 0 `i 147  ]
+{
+"62
+[e = . . _RCSTAbits 0 4 -> -> 0 `i `uc ]
+[e = . . _RCSTAbits 0 4 -> -> 1 `i `uc ]
+"63
+}
+[e :U 147 ]
+"64
+[e $U 148  ]
+[e :U 149 ]
+{
+"65
+[v _dummy `uc ~T0 @X0 1 a ]
+[e = _dummy -> _RCREG `uc ]
+"66
+[e _dummy ]
+"67
+}
+[e :U 148 ]
+"64
+[e $ != -> . . _PIR1bits 0 5 `i -> 0 `i 149  ]
+[e :U 150 ]
+"68
+[v F1649 `uc ~T0 @X0 -> 8 `i s buffer ]
+"69
+[v F1650 `uc ~T0 @X0 1 s index ]
+[i F1650
+-> -> 0 `i `uc
+]
+"70
+[v _data `uc ~T0 @X0 1 a ]
+[e = _data -> _RCREG `uc ]
+"71
+[e $ ! && < -> _data `i -> 32 `i != -> _data `ui -> 10 `ui 151  ]
+{
+"72
+[e = F1650 -> -> 0 `i `uc ]
+"73
+[e = . . _PIR1bits 0 5 -> -> 0 `i `uc ]
+"74
+[e $UE 145  ]
+"75
+}
+[e :U 151 ]
+"76
+[e $ ! == -> _data `ui -> 10 `ui 152  ]
+{
+"77
+[e = *U + &U F1649 * -> F1650 `ux -> -> # *U &U F1649 `ui `ux -> -> 0 `ui `uc ]
+"78
+[e $ ! == ( _strcmp (2 , -> &U F1649 `*Cuc :s 1C -> 0 `i 153  ]
+{
+"79
+[e = _mode -> % + -> _mode `i -> 1 `i -> 3 `i `uc ]
+"80
+[e = _exitsign -> -> 1 `i `uc ]
+"81
+[e = _timer_counter -> -> 0 `i `us ]
+"82
+}
+[e $U 154  ]
+[e :U 153 ]
+[e $ ! == -> _mode `i -> 1 `i 155  ]
+{
+"83
+[e $ ! == ( _strcmp (2 , -> &U F1649 `*Cuc :s 2C -> 0 `i 156  ]
+{
+"84
+[e = _road1_flag -> -> 1 `i `uc ]
+"85
+}
+[e $U 157  ]
+[e :U 156 ]
+[e $ ! == ( _strcmp (2 , -> &U F1649 `*Cuc :s 3C -> 0 `i 158  ]
+{
+"86
+[e = _road2_flag -> -> 1 `i `uc ]
+"87
+}
+[e :U 158 ]
+[e :U 157 ]
+"88
+}
+[e :U 155 ]
+[e :U 154 ]
+"89
+[e = F1650 -> -> 0 `i `uc ]
+"90
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"91
+}
+[e $U 159  ]
+[e :U 152 ]
+[e $ ! < -> F1650 `i -> 7 `i 160  ]
+{
+"92
+[e = *U + &U F1649 * -> ++ F1650 -> -> 1 `i `uc `ux -> -> # *U &U F1649 `ui `ux _data ]
+"93
+}
+[e $U 161  ]
+[e :U 160 ]
+{
+"94
+[e = F1650 -> -> 0 `i `uc ]
+"95
+}
+[e :U 161 ]
+[e :U 159 ]
+"96
+[e = . . _PIR1bits 0 5 -> -> 0 `i `uc ]
+"97
+}
+[e :U 146 ]
+"99
+[e $ ! != -> . . _PIR1bits 0 0 `i -> 0 `i 162  ]
+{
+"100
+[e = . . _PIR1bits 0 0 -> -> 0 `i `uc ]
+"101
+[e = _TMR1 -> -> 3036 `i `us ]
+"102
+[e ++ _tick_500ms -> -> 1 `i `Vuc ]
+"103
+[e $ ! >= -> _tick_500ms `i -> 2 `i 163  ]
+{
+"104
+[e = _tick_500ms -> -> 0 `i `uc ]
+"105
+[e ++ _timer_counter -> -> 1 `i `Vus ]
+"106
+}
+[e :U 163 ]
+"107
+}
+[e :U 162 ]
+"109
+[e $ ! != -> . . _INTCONbits 0 1 `i -> 0 `i 164  ]
+{
+"110
+[e = . . _INTCONbits 0 1 -> -> 0 `i `uc ]
+"111
+[e ( __delay (1 -> * -> -> 50 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"112
+[e = _mode -> % + -> _mode `i -> 1 `i -> 3 `i `uc ]
+"113
+[e = _exitsign -> -> 1 `i `uc ]
+"114
+[e = _timer_counter -> -> 0 `i `us ]
+"115
+}
+[e :U 164 ]
+"116
+[e :UE 145 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"119
+[v _main `(i ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"120
+[e ( _System_Init ..  ]
+"121
+[e ( _UART_Init ..  ]
+"122
+[e ( _Interrupt_Init ..  ]
+"123
+[e ( _I2C_Master_Init ..  ]
+"124
+[e ( _LCD_Init (1 -> -> 78 `i `uc ]
+"125
+[e :U 167 ]
+{
+"126
+[e $ ! != -> _last_mode `i -> _mode `i 169  ]
+{
+"127
+[e ( _LCD_Clear ..  ]
+"128
+[e ( _LCD_Set_Cursor (2 , -> -> 1 `i `uc -> -> 1 `i `uc ]
+"130
+[e $U 171  ]
+{
+"131
+[e :U 172 ]
+[e ( _LCD_Write_String (1 :s 4C ]
+[e $U 170  ]
+"132
+[e :U 173 ]
+[e ( _LCD_Write_String (1 :s 5C ]
+[e $U 170  ]
+"133
+[e :U 174 ]
+[e ( _LCD_Write_String (1 :s 6C ]
+[e $U 170  ]
+"134
+[e :U 175 ]
+[e ( _LCD_Write_String (1 :s 7C ]
+[e $U 170  ]
+"135
+}
+[e $U 170  ]
+[e :U 171 ]
+[e [\ _mode , $ -> 0 `i 172
+ , $ -> 1 `i 173
+ , $ -> 2 `i 174
+ 175 ]
+[e :U 170 ]
+"137
+[e = _last_mode _mode ]
+"138
+}
+[e :U 169 ]
+"139
+[e $U 177  ]
+{
+"140
+[e :U 178 ]
+"141
+[e ( _Auto_Mode_Timer ..  ]
+"142
+[e $U 176  ]
+"143
+[e :U 179 ]
+"144
+[e ( _Midnight_Mode_Timer ..  ]
+"145
+[e $U 176  ]
+"146
+[e :U 180 ]
+"147
+[e ( _Manual_Mode ..  ]
+"148
+[e $U 176  ]
+"149
+[e :U 181 ]
+[e = _mode -> -> 0 `i `uc ]
+[e $U 176  ]
+"150
+}
+[e $U 176  ]
+[e :U 177 ]
+[e [\ _mode , $ -> 0 `i 178
+ , $ -> 1 `i 179
+ , $ -> 2 `i 180
+ 181 ]
+[e :U 176 ]
+"151
+}
+[e :U 166 ]
+[e $U 167  ]
+[e :U 168 ]
+"152
+[e :UE 165 ]
+}
+[a 5C 77 105 100 110 105 103 104 116 32 77 111 100 101 0 ]
+[a 4C 65 117 116 111 32 77 111 100 101 0 ]
+[a 7C 85 110 107 110 111 119 110 32 77 111 100 101 0 ]
+[a 6C 77 97 110 117 97 108 32 77 111 100 101 0 ]
+[a 1C 77 0 ]
+[a 3C 82 50 0 ]
+[a 2C 82 49 0 ]

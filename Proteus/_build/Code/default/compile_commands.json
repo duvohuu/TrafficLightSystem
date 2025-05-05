@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/_build/Code/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.00\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -c -mcpu=16F887 -mdfp=C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\Code_default_default_XC8_compile.dir\\C_\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\lcd_i2c.c.p1 -c C:\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\lcd_i2c.c",
+  "file": "C:\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\lcd_i2c.c",
+  "output": "CMakeFiles\\Code_default_default_XC8_compile.dir\\C_\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\lcd_i2c.c.p1"
+},
+{
+  "directory": "C:/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/_build/Code/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.00\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -c -mcpu=16F887 -mdfp=C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\Code_default_default_XC8_compile.dir\\C_\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\main.c.p1 -c C:\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\main.c",
+  "file": "C:\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\main.c",
+  "output": "CMakeFiles\\Code_default_default_XC8_compile.dir\\C_\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\main.c.p1"
+},
+{
+  "directory": "C:/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/_build/Code/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.00\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -c -mcpu=16F887 -mdfp=C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\Code_default_default_XC8_compile.dir\\C_\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\traffic.c.p1 -c C:\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\traffic.c",
+  "file": "C:\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\traffic.c",
+  "output": "CMakeFiles\\Code_default_default_XC8_compile.dir\\C_\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\traffic.c.p1"
+},
+{
+  "directory": "C:/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/_build/Code/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.00\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -c -mcpu=16F887 -mdfp=C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\Code_default_default_XC8_compile.dir\\C_\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\uart.c.p1 -c C:\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\uart.c",
+  "file": "C:\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\uart.c",
+  "output": "CMakeFiles\\Code_default_default_XC8_compile.dir\\C_\\Users\\duvoh\\OneDrive\\Desktop\\Traffic_Light\\Code\\uart.c.p1"
+}
+]

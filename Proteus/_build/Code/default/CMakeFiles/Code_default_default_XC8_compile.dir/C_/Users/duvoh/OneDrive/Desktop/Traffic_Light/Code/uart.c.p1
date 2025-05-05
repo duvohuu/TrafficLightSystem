@@ -1,0 +1,286 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"2640 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[v _SPBRG `Vuc ~T0 @X0 0 e@153 ]
+"3670
+[v _BRG16 `Vb ~T0 @X0 0 e@3131 ]
+"3697
+[v _BRGH `Vb ~T0 @X0 0 e@1218 ]
+"4315
+[v _SYNC `Vb ~T0 @X0 0 e@1220 ]
+"4261
+[v _SPEN `Vb ~T0 @X0 0 e@199 ]
+"4540
+[v _TXEN `Vb ~T0 @X0 0 e@1221 ]
+"3838
+[v _CREN `Vb ~T0 @X0 0 e@196 ]
+"1706
+[s S67 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S67 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE ]
+"1705
+[u S66 `S67 1 ]
+[n S66 . . ]
+"1716
+[v _PIE1bits `VS66 ~T0 @X0 0 e@140 ]
+"4546
+[v _TXIF `Vb ~T0 @X0 0 e@100 ]
+"1131
+[v _TXREG `Vuc ~T0 @X0 0 e@25 ]
+"121 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\include\c99/stdio.h
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"24 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code/traffic.h
+[v _mode `Vuc ~T0 @X0 0 e ]
+"4087 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[v _RA2 `Vb ~T0 @X0 0 e@42 ]
+"4084
+[v _RA1 `Vb ~T0 @X0 0 e@41 ]
+"4081
+[v _RA0 `Vb ~T0 @X0 0 e@40 ]
+"25 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code/traffic.h
+[v _countdown_NS `Vuc ~T0 @X0 0 e ]
+"54 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\include\c99/string.h
+[v _strlen `(ui ~T0 @X0 0 ef1`*Cuc ]
+"4096 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[v _RA5 `Vb ~T0 @X0 0 e@45 ]
+"4093
+[v _RA4 `Vb ~T0 @X0 0 e@44 ]
+"4090
+[v _RA3 `Vb ~T0 @X0 0 e@43 ]
+"26 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code/traffic.h
+[v _countdown_EW `Vuc ~T0 @X0 0 e ]
+"52 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[; <" INDF equ 00h ;# ">
+"59
+[; <" TMR0 equ 01h ;# ">
+"66
+[; <" PCL equ 02h ;# ">
+"73
+[; <" STATUS equ 03h ;# ">
+"159
+[; <" FSR equ 04h ;# ">
+"166
+[; <" PORTA equ 05h ;# ">
+"228
+[; <" PORTB equ 06h ;# ">
+"290
+[; <" PORTC equ 07h ;# ">
+"352
+[; <" PORTD equ 08h ;# ">
+"414
+[; <" PORTE equ 09h ;# ">
+"452
+[; <" PCLATH equ 0Ah ;# ">
+"459
+[; <" INTCON equ 0Bh ;# ">
+"537
+[; <" PIR1 equ 0Ch ;# ">
+"593
+[; <" PIR2 equ 0Dh ;# ">
+"650
+[; <" TMR1 equ 0Eh ;# ">
+"657
+[; <" TMR1L equ 0Eh ;# ">
+"664
+[; <" TMR1H equ 0Fh ;# ">
+"671
+[; <" T1CON equ 010h ;# ">
+"765
+[; <" TMR2 equ 011h ;# ">
+"772
+[; <" T2CON equ 012h ;# ">
+"843
+[; <" SSPBUF equ 013h ;# ">
+"850
+[; <" SSPCON equ 014h ;# ">
+"920
+[; <" CCPR1 equ 015h ;# ">
+"927
+[; <" CCPR1L equ 015h ;# ">
+"934
+[; <" CCPR1H equ 016h ;# ">
+"941
+[; <" CCP1CON equ 017h ;# ">
+"1038
+[; <" RCSTA equ 018h ;# ">
+"1133
+[; <" TXREG equ 019h ;# ">
+"1140
+[; <" RCREG equ 01Ah ;# ">
+"1147
+[; <" CCPR2 equ 01Bh ;# ">
+"1154
+[; <" CCPR2L equ 01Bh ;# ">
+"1161
+[; <" CCPR2H equ 01Ch ;# ">
+"1168
+[; <" CCP2CON equ 01Dh ;# ">
+"1238
+[; <" ADRESH equ 01Eh ;# ">
+"1245
+[; <" ADCON0 equ 01Fh ;# ">
+"1346
+[; <" OPTION_REG equ 081h ;# ">
+"1416
+[; <" TRISA equ 085h ;# ">
+"1478
+[; <" TRISB equ 086h ;# ">
+"1540
+[; <" TRISC equ 087h ;# ">
+"1602
+[; <" TRISD equ 088h ;# ">
+"1664
+[; <" TRISE equ 089h ;# ">
+"1702
+[; <" PIE1 equ 08Ch ;# ">
+"1758
+[; <" PIE2 equ 08Dh ;# ">
+"1815
+[; <" PCON equ 08Eh ;# ">
+"1862
+[; <" OSCCON equ 08Fh ;# ">
+"1927
+[; <" OSCTUNE equ 090h ;# ">
+"1979
+[; <" SSPCON2 equ 091h ;# ">
+"2041
+[; <" PR2 equ 092h ;# ">
+"2048
+[; <" SSPADD equ 093h ;# ">
+"2055
+[; <" SSPMSK equ 093h ;# ">
+"2060
+[; <" MSK equ 093h ;# ">
+"2177
+[; <" SSPSTAT equ 094h ;# ">
+"2346
+[; <" WPUB equ 095h ;# ">
+"2416
+[; <" IOCB equ 096h ;# ">
+"2486
+[; <" VRCON equ 097h ;# ">
+"2556
+[; <" TXSTA equ 098h ;# ">
+"2642
+[; <" SPBRG equ 099h ;# ">
+"2704
+[; <" SPBRGH equ 09Ah ;# ">
+"2774
+[; <" PWM1CON equ 09Bh ;# ">
+"2844
+[; <" ECCPAS equ 09Ch ;# ">
+"2926
+[; <" PSTRCON equ 09Dh ;# ">
+"2970
+[; <" ADRESL equ 09Eh ;# ">
+"2977
+[; <" ADCON1 equ 09Fh ;# ">
+"3011
+[; <" WDTCON equ 0105h ;# ">
+"3064
+[; <" CM1CON0 equ 0107h ;# ">
+"3129
+[; <" CM2CON0 equ 0108h ;# ">
+"3194
+[; <" CM2CON1 equ 0109h ;# ">
+"3245
+[; <" EEDATA equ 010Ch ;# ">
+"3250
+[; <" EEDAT equ 010Ch ;# ">
+"3257
+[; <" EEADR equ 010Dh ;# ">
+"3264
+[; <" EEDATH equ 010Eh ;# ">
+"3271
+[; <" EEADRH equ 010Fh ;# ">
+"3278
+[; <" SRCON equ 0185h ;# ">
+"3335
+[; <" BAUDCTL equ 0187h ;# ">
+"3387
+[; <" ANSEL equ 0188h ;# ">
+"3449
+[; <" ANSELH equ 0189h ;# ">
+"3499
+[; <" EECON1 equ 018Ch ;# ">
+"3544
+[; <" EECON2 equ 018Dh ;# ">
+"7 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\uart.c
+[v _UART_Init `(v ~T0 @X0 1 ef ]
+{
+[e :U _UART_Init ]
+[f ]
+"8
+[e = _SPBRG -> -> 25 `i `uc ]
+"9
+[e = _BRG16 -> -> 0 `i `b ]
+"10
+[e = _BRGH -> -> 1 `i `b ]
+"11
+[e = _SYNC -> -> 0 `i `b ]
+"12
+[e = _SPEN -> -> 1 `i `b ]
+"13
+[e = _TXEN -> -> 1 `i `b ]
+"14
+[e = _CREN -> -> 1 `i `b ]
+"15
+[e = . . _PIE1bits 0 5 -> -> 1 `i `uc ]
+"16
+[e :UE 145 ]
+}
+"18
+[v _UART_TxChar `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _UART_TxChar ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+"19
+[e $U 147  ]
+[e :U 148 ]
+[e :U 147 ]
+[e $ ! _TXIF 148  ]
+[e :U 149 ]
+"20
+[e = _TXREG -> _data `uc ]
+"21
+[e :UE 146 ]
+}
+"23
+[v _UART_TxString `(v ~T0 @X0 1 ef1`*Cuc ]
+{
+[e :U _UART_TxString ]
+[v _str `*Cuc ~T0 @X0 1 r1 ]
+[f ]
+"24
+[e $U 151  ]
+[e :U 152 ]
+{
+"25
+[e ( _UART_TxChar (1 *U ++ _str * -> -> 1 `i `x -> -> # *U _str `i `x ]
+"26
+}
+[e :U 151 ]
+"24
+[e $ != -> *U _str `i -> 0 `i 152  ]
+[e :U 153 ]
+"27
+[e :UE 150 ]
+}
+"29
+[v _UART_TxTrafficState `(v ~T0 @X0 1 ef ]
+{
+[e :U _UART_TxTrafficState ]
+[f ]
+"30
+[v _buffer `uc ~T0 @X0 -> 40 `i a ]
+"31
+[e ( _sprintf (1 , , , , , (. , &U _buffer :s 1C -> _mode `i -> _RA2 `i -> _RA1 `i -> _RA0 `i -> _countdown_NS `i ]
+"34
+[e ( _sprintf (1 , , , , (. , + &U _buffer * -> ( _strlen (1 -> &U _buffer `*Cuc `ux -> -> # *U &U _buffer `ui `ux :s 2C -> _RA5 `i -> _RA4 `i -> _RA3 `i -> _countdown_EW `i ]
+"36
+[e ( _UART_TxString (1 -> &U _buffer `*Cuc ]
+"37
+[e :UE 154 ]
+}
+[p f _sprintf 8388736 ]
+[a 1C 37 100 44 37 100 44 37 100 44 37 100 44 37 100 44 0 ]
+[a 2C 37 100 44 37 100 44 37 100 44 37 100 10 0 ]

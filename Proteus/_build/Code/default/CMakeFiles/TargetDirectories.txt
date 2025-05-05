@@ -1,0 +1,4 @@
+C:/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/_build/Code/default/CMakeFiles/Code_default_default_XC8_compile.dir
+C:/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/_build/Code/default/CMakeFiles/Code_default_default.elf.dir
+C:/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/_build/Code/default/CMakeFiles/edit_cache.dir
+C:/Users/duvoh/OneDrive/Desktop/Traffic_Light/Code/_build/Code/default/CMakeFiles/rebuild_cache.dir

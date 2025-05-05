@@ -1,8 +1,8 @@
 # ninja log v6
-50	1082	7679865506922487	CMakeFiles/Code_default_default_XC8_compile.dir/D_/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/i2c.c.p1	65ae222ce924288f
 32	308	7679925320615271	CMakeFiles/Code_default_default_XC8_compile.dir/D_/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/main.c.p1	8f840e143b8e27ac
+50	1082	7679865506922487	CMakeFiles/Code_default_default_XC8_compile.dir/D_/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/i2c.c.p1	65ae222ce924288f
 376	1085	7679865510185572	CMakeFiles/Code_default_default_XC8_compile.dir/D_/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/i2c_lcd.c.p1	41edb7c0a8c8e014
 382	1082	7679865510247814	CMakeFiles/Code_default_default_XC8_compile.dir/D_/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/traffic.c.p1	232d47cae4cc37b9
 309	1793	7679925338127388	Code_default_default.elf	c73540f080545b27
-32	262	7679910991435735	CMakeFiles/Code_default_default_XC8_compile.dir/D_/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/uart.c.p1	ae4558d42b841e25
 309	1793	7679925338127388	D:/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/out/Code/default.elf	c73540f080545b27
+32	262	7679910991435735	CMakeFiles/Code_default_default_XC8_compile.dir/D_/HCMUT/HK242/Mirco_Controller/Project/Traffic_Light/Code/uart.c.p1	ae4558d42b841e25

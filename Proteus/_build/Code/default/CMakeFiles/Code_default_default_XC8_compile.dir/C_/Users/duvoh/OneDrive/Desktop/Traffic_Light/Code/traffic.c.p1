@@ -1,0 +1,602 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"4096 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[v _RA5 `Vb ~T0 @X0 0 e@45 ]
+"4081
+[v _RA0 `Vb ~T0 @X0 0 e@40 ]
+"4090
+[v _RA3 `Vb ~T0 @X0 0 e@43 ]
+"4087
+[v _RA2 `Vb ~T0 @X0 0 e@42 ]
+"4084
+[v _RA1 `Vb ~T0 @X0 0 e@41 ]
+"4093
+[v _RA4 `Vb ~T0 @X0 0 e@44 ]
+"35 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code/traffic.h
+[v _Display_Countdown `(v ~T0 @X0 0 ef2`uc`uc ]
+"37
+[v _Clear_Display `(v ~T0 @X0 0 ef ]
+"4108 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[v _RB1 `Vb ~T0 @X0 0 e@49 ]
+"27 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code/traffic.h
+[v _road1_flag `Vuc ~T0 @X0 0 e ]
+"4111 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[v _RB2 `Vb ~T0 @X0 0 e@50 ]
+"28 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code/traffic.h
+[v _road2_flag `Vuc ~T0 @X0 0 e ]
+"4138 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[v _RC1 `Vb ~T0 @X0 0 e@57 ]
+"4135
+[v _RC0 `Vb ~T0 @X0 0 e@56 ]
+[v F164 `(v ~T0 @X0 1 tf1`ul ]
+"20 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\include/builtins.h
+[v __delay `JF164 ~T0 @X0 0 e ]
+[p i __delay ]
+"4141 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[v _RC2 `Vb ~T0 @X0 0 e@58 ]
+"52 C:/Users/duvoh/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[; <" INDF equ 00h ;# ">
+"59
+[; <" TMR0 equ 01h ;# ">
+"66
+[; <" PCL equ 02h ;# ">
+"73
+[; <" STATUS equ 03h ;# ">
+"159
+[; <" FSR equ 04h ;# ">
+"166
+[; <" PORTA equ 05h ;# ">
+"228
+[; <" PORTB equ 06h ;# ">
+"290
+[; <" PORTC equ 07h ;# ">
+"352
+[; <" PORTD equ 08h ;# ">
+"414
+[; <" PORTE equ 09h ;# ">
+"452
+[; <" PCLATH equ 0Ah ;# ">
+"459
+[; <" INTCON equ 0Bh ;# ">
+"537
+[; <" PIR1 equ 0Ch ;# ">
+"593
+[; <" PIR2 equ 0Dh ;# ">
+"650
+[; <" TMR1 equ 0Eh ;# ">
+"657
+[; <" TMR1L equ 0Eh ;# ">
+"664
+[; <" TMR1H equ 0Fh ;# ">
+"671
+[; <" T1CON equ 010h ;# ">
+"765
+[; <" TMR2 equ 011h ;# ">
+"772
+[; <" T2CON equ 012h ;# ">
+"843
+[; <" SSPBUF equ 013h ;# ">
+"850
+[; <" SSPCON equ 014h ;# ">
+"920
+[; <" CCPR1 equ 015h ;# ">
+"927
+[; <" CCPR1L equ 015h ;# ">
+"934
+[; <" CCPR1H equ 016h ;# ">
+"941
+[; <" CCP1CON equ 017h ;# ">
+"1038
+[; <" RCSTA equ 018h ;# ">
+"1133
+[; <" TXREG equ 019h ;# ">
+"1140
+[; <" RCREG equ 01Ah ;# ">
+"1147
+[; <" CCPR2 equ 01Bh ;# ">
+"1154
+[; <" CCPR2L equ 01Bh ;# ">
+"1161
+[; <" CCPR2H equ 01Ch ;# ">
+"1168
+[; <" CCP2CON equ 01Dh ;# ">
+"1238
+[; <" ADRESH equ 01Eh ;# ">
+"1245
+[; <" ADCON0 equ 01Fh ;# ">
+"1346
+[; <" OPTION_REG equ 081h ;# ">
+"1416
+[; <" TRISA equ 085h ;# ">
+"1478
+[; <" TRISB equ 086h ;# ">
+"1540
+[; <" TRISC equ 087h ;# ">
+"1602
+[; <" TRISD equ 088h ;# ">
+"1664
+[; <" TRISE equ 089h ;# ">
+"1702
+[; <" PIE1 equ 08Ch ;# ">
+"1758
+[; <" PIE2 equ 08Dh ;# ">
+"1815
+[; <" PCON equ 08Eh ;# ">
+"1862
+[; <" OSCCON equ 08Fh ;# ">
+"1927
+[; <" OSCTUNE equ 090h ;# ">
+"1979
+[; <" SSPCON2 equ 091h ;# ">
+"2041
+[; <" PR2 equ 092h ;# ">
+"2048
+[; <" SSPADD equ 093h ;# ">
+"2055
+[; <" SSPMSK equ 093h ;# ">
+"2060
+[; <" MSK equ 093h ;# ">
+"2177
+[; <" SSPSTAT equ 094h ;# ">
+"2346
+[; <" WPUB equ 095h ;# ">
+"2416
+[; <" IOCB equ 096h ;# ">
+"2486
+[; <" VRCON equ 097h ;# ">
+"2556
+[; <" TXSTA equ 098h ;# ">
+"2642
+[; <" SPBRG equ 099h ;# ">
+"2704
+[; <" SPBRGH equ 09Ah ;# ">
+"2774
+[; <" PWM1CON equ 09Bh ;# ">
+"2844
+[; <" ECCPAS equ 09Ch ;# ">
+"2926
+[; <" PSTRCON equ 09Dh ;# ">
+"2970
+[; <" ADRESL equ 09Eh ;# ">
+"2977
+[; <" ADCON1 equ 09Fh ;# ">
+"3011
+[; <" WDTCON equ 0105h ;# ">
+"3064
+[; <" CM1CON0 equ 0107h ;# ">
+"3129
+[; <" CM2CON0 equ 0108h ;# ">
+"3194
+[; <" CM2CON1 equ 0109h ;# ">
+"3245
+[; <" EEDATA equ 010Ch ;# ">
+"3250
+[; <" EEDAT equ 010Ch ;# ">
+"3257
+[; <" EEADR equ 010Dh ;# ">
+"3264
+[; <" EEDATH equ 010Eh ;# ">
+"3271
+[; <" EEADRH equ 010Fh ;# ">
+"3278
+[; <" SRCON equ 0185h ;# ">
+"3335
+[; <" BAUDCTL equ 0187h ;# ">
+"3387
+[; <" ANSEL equ 0188h ;# ">
+"3449
+[; <" ANSELH equ 0189h ;# ">
+"3499
+[; <" EECON1 equ 018Ch ;# ">
+"3544
+[; <" EECON2 equ 018Dh ;# ">
+"5 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code/pic16f887.h
+[p x FOSC  =  EXTRC_CLKOUT ]
+"6
+[p x WDTE  =  OFF        ]
+"7
+[p x PWRTE  =  OFF       ]
+"8
+[p x MCLRE  =  OFF       ]
+"9
+[p x CP  =  OFF          ]
+"10
+[p x CPD  =  OFF         ]
+"11
+[p x BOREN  =  ON        ]
+"12
+[p x IESO  =  OFF        ]
+"13
+[p x FCMEN  =  OFF       ]
+"14
+[p x LVP  =  OFF         ]
+"17
+[p x BOR4V  =  BOR40V    ]
+"18
+[p x WRT  =  OFF         ]
+"6 C:\Users\duvoh\OneDrive\Desktop\Traffic_Light\Code\traffic.c
+[v _timer_counter `Vus ~T0 @X0 1 e ]
+[i _timer_counter
+-> -> 0 `i `us
+]
+"7
+[v _system_state `Vuc ~T0 @X0 1 e ]
+[i _system_state
+-> -> 0 `i `uc
+]
+"8
+[v _exitsign `Vuc ~T0 @X0 1 e ]
+[i _exitsign
+-> -> 0 `i `uc
+]
+"9
+[v _mode `Vuc ~T0 @X0 1 e ]
+[i _mode
+-> -> 0 `i `uc
+]
+"10
+[v _countdown_NS `Vuc ~T0 @X0 1 e ]
+[i _countdown_NS
+-> -> 0 `i `uc
+]
+"11
+[v _countdown_EW `Vuc ~T0 @X0 1 e ]
+[i _countdown_EW
+-> -> 0 `i `uc
+]
+"13
+[v _led7seg_digits `Cuc ~T0 @X0 -> 10 `i s ]
+[i _led7seg_digits
+:U ..
+-> -> 192 `i `uc
+-> -> 249 `i `uc
+-> -> 164 `i `uc
+-> -> 176 `i `uc
+-> -> 153 `i `uc
+-> -> 146 `i `uc
+-> -> 130 `i `uc
+-> -> 248 `i `uc
+-> -> 128 `i `uc
+-> -> 144 `i `uc
+..
+]
+"26
+[v _Opposite_State `(v ~T0 @X0 1 ef ]
+{
+[e :U _Opposite_State ]
+[f ]
+"27
+[e = _RA5 _RA0 ]
+"28
+[e = _RA3 _RA2 ]
+"29
+[e :UE 142 ]
+}
+"32
+[v _Auto_Mode_Timer `(v ~T0 @X0 1 ef ]
+{
+[e :U _Auto_Mode_Timer ]
+[f ]
+"33
+[e $U 145  ]
+{
+"34
+[e :U 146 ]
+"35
+[e = _RA2 -> -> 0 `i `b ]
+[e = _RA0 -> -> 1 `i `b ]
+[e = _RA1 -> -> 0 `i `b ]
+"36
+[e = _RA4 -> -> 0 `i `b ]
+"37
+[e ( _Opposite_State ..  ]
+"38
+[e = _countdown_EW -> ? > -> -> 10 `i `ui -> _timer_counter `ui : - -> -> 10 `i `ui -> _timer_counter `ui -> -> 0 `i `ui `uc ]
+"39
+[e = _countdown_NS -> + + -> _countdown_EW `i -> 3 `i -> 1 `i `uc ]
+"40
+[e $ ! > -> _timer_counter `ui -> -> 10 `i `ui 147  ]
+{
+"41
+[e = _timer_counter -> -> 0 `i `us ]
+"42
+[e = _system_state -> -> 1 `i `uc ]
+"43
+}
+[e :U 147 ]
+"44
+[e $U 144  ]
+"46
+[e :U 148 ]
+"47
+[e = _RA0 -> -> 0 `i `b ]
+[e = _RA1 -> -> 1 `i `b ]
+"48
+[e = _RA4 -> -> 0 `i `b ]
+"49
+[e = _countdown_EW -> ? > -> -> 3 `i `ui -> _timer_counter `ui : - -> -> 3 `i `ui -> _timer_counter `ui -> -> 0 `i `ui `uc ]
+"50
+[e = _countdown_NS _countdown_EW ]
+"51
+[e $ ! > -> _timer_counter `ui -> -> 3 `i `ui 149  ]
+{
+"52
+[e = _timer_counter -> -> 0 `i `us ]
+"53
+[e = _system_state -> -> 2 `i `uc ]
+"54
+}
+[e :U 149 ]
+"55
+[e $U 144  ]
+"57
+[e :U 150 ]
+"58
+[e = _RA2 -> -> 1 `i `b ]
+[e = _RA0 -> -> 0 `i `b ]
+[e = _RA1 -> -> 0 `i `b ]
+"59
+[e = _RA4 -> -> 0 `i `b ]
+"60
+[e ( _Opposite_State ..  ]
+"61
+[e = _countdown_NS -> ? > -> -> 15 `i `ui -> _timer_counter `ui : - -> -> 15 `i `ui -> _timer_counter `ui -> -> 0 `i `ui `uc ]
+"62
+[e = _countdown_EW -> + + -> _countdown_NS `i -> 3 `i -> 1 `i `uc ]
+"63
+[e $ ! > -> _timer_counter `ui -> -> 15 `i `ui 151  ]
+{
+"64
+[e = _timer_counter -> -> 0 `i `us ]
+"65
+[e = _system_state -> -> 3 `i `uc ]
+"66
+}
+[e :U 151 ]
+"67
+[e $U 144  ]
+"69
+[e :U 152 ]
+"70
+[e = _RA3 -> -> 0 `i `b ]
+[e = _RA4 -> -> 1 `i `b ]
+"71
+[e = _RA1 -> -> 0 `i `b ]
+"72
+[e = _countdown_NS -> ? > -> -> 3 `i `ui -> _timer_counter `ui : - -> -> 3 `i `ui -> _timer_counter `ui -> -> 0 `i `ui `uc ]
+"73
+[e = _countdown_EW _countdown_NS ]
+"74
+[e $ ! > -> _timer_counter `ui -> -> 3 `i `ui 153  ]
+{
+"75
+[e = _timer_counter -> -> 0 `i `us ]
+"76
+[e = _system_state -> -> 0 `i `uc ]
+"77
+}
+[e :U 153 ]
+"78
+[e $U 144  ]
+"79
+}
+[e $U 144  ]
+[e :U 145 ]
+[e [\ _system_state , $ -> 0 `i 146
+ , $ -> 1 `i 148
+ , $ -> 2 `i 150
+ , $ -> 3 `i 152
+ 144 ]
+[e :U 144 ]
+"81
+[e $ ! != -> _exitsign `i -> 0 `i 154  ]
+{
+"82
+[e = _exitsign -> -> 0 `i `uc ]
+"83
+[e = _timer_counter -> -> 0 `i `us ]
+"84
+[e = _system_state -> -> 0 `i `uc ]
+"85
+}
+[e :U 154 ]
+"88
+[e ( _Display_Countdown (2 , _countdown_EW _countdown_NS ]
+"89
+[e :UE 143 ]
+}
+"92
+[v _Manual_Mode `(v ~T0 @X0 1 ef ]
+{
+[e :U _Manual_Mode ]
+[f ]
+"93
+[e ( _Clear_Display ..  ]
+"94
+[e $ ! || == -> _RB1 `i -> 1 `i == -> _road1_flag `i -> 1 `i 156  ]
+{
+"95
+[e = _RA2 -> -> 0 `i `b ]
+[e = _RA0 -> -> 1 `i `b ]
+[e = _RA1 -> -> 0 `i `b ]
+[e = _RA4 -> -> 0 `i `b ]
+"96
+[e ( _Opposite_State ..  ]
+"97
+[e = _road1_flag -> -> 0 `i `uc ]
+"98
+}
+[e $U 157  ]
+[e :U 156 ]
+[e $ ! || == -> _RB2 `i -> 1 `i == -> _road2_flag `i -> 1 `i 158  ]
+{
+"99
+[e = _RA2 -> -> 1 `i `b ]
+[e = _RA0 -> -> 0 `i `b ]
+[e = _RA1 -> -> 0 `i `b ]
+[e = _RA4 -> -> 0 `i `b ]
+"100
+[e ( _Opposite_State ..  ]
+"101
+[e = _road2_flag -> -> 0 `i `uc ]
+"102
+}
+[e :U 158 ]
+[e :U 157 ]
+"104
+[e $ ! != -> _exitsign `i -> 0 `i 159  ]
+{
+"105
+[e = _exitsign -> -> 0 `i `uc ]
+"106
+[e = _timer_counter -> -> 0 `i `us ]
+"107
+}
+[e :U 159 ]
+"108
+[e :UE 155 ]
+}
+"111
+[v _Midnight_Mode_Timer `(v ~T0 @X0 1 ef ]
+{
+[e :U _Midnight_Mode_Timer ]
+[f ]
+"112
+[e ( _Clear_Display ..  ]
+"113
+[e = _RA2 -> -> 0 `i `b ]
+[e = _RA0 -> -> 0 `i `b ]
+[e = _RA5 -> -> 0 `i `b ]
+[e = _RA3 -> -> 0 `i `b ]
+"114
+[e $ ! >= -> _timer_counter `ui -> -> 1 `i `ui 161  ]
+{
+"115
+[e = _RA1 ! _RA1 ]
+"116
+[e = _RA4 ! _RA4 ]
+"117
+[e = _timer_counter -> -> 0 `i `us ]
+"118
+}
+[e :U 161 ]
+"119
+[e $ ! != -> _exitsign `i -> 0 `i 162  ]
+{
+"120
+[e = _exitsign -> -> 0 `i `uc ]
+"121
+[e = _timer_counter -> -> 0 `i `us ]
+"122
+}
+[e :U 162 ]
+"123
+[e :UE 160 ]
+}
+"126
+[v _ShiftOut_1Bit `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _ShiftOut_1Bit ]
+[v _bitVal `uc ~T0 @X0 1 r1 ]
+[f ]
+"127
+[e = _RC1 -> ? != -> _bitVal `i -> 0 `i : -> 1 `i -> 0 `i `b ]
+"128
+[e = _RC0 -> -> 1 `i `b ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"129
+[e = _RC0 -> -> 0 `i `b ]
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"130
+[e :UE 163 ]
+}
+"132
+[v _ShiftOut_1Byte `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _ShiftOut_1Byte ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+"133
+{
+[v _i `c ~T0 @X0 1 a ]
+[e = _i -> -> 7 `i `c ]
+[e $ >= -> _i `i -> 0 `i 165  ]
+[e $U 166  ]
+[e :U 165 ]
+{
+"134
+[e ( _ShiftOut_1Bit (1 -> & >> -> _data `i -> _i `i -> 1 `i `uc ]
+"135
+}
+[e -- _i -> -> 1 `i `c ]
+[e $ >= -> _i `i -> 0 `i 165  ]
+[e :U 166 ]
+}
+"136
+[e :UE 164 ]
+}
+"139
+[v _Display_Countdown `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _Display_Countdown ]
+[v _countdown_NS `uc ~T0 @X0 1 r1 ]
+[v _countdown_EW `uc ~T0 @X0 1 r2 ]
+[f ]
+"140
+[v _tens_NS `uc ~T0 @X0 1 a ]
+[e = _tens_NS -> / -> _countdown_NS `i -> 10 `i `uc ]
+"141
+[v _ones_NS `uc ~T0 @X0 1 a ]
+[e = _ones_NS -> % -> _countdown_NS `i -> 10 `i `uc ]
+"142
+[v _tens_EW `uc ~T0 @X0 1 a ]
+[e = _tens_EW -> / -> _countdown_EW `i -> 10 `i `uc ]
+"143
+[v _ones_EW `uc ~T0 @X0 1 a ]
+[e = _ones_EW -> % -> _countdown_EW `i -> 10 `i `uc ]
+"145
+[e ( _ShiftOut_1Byte (1 *U + &U _led7seg_digits * -> _ones_EW `ux -> -> # *U &U _led7seg_digits `ui `ux ]
+"146
+[e ( _ShiftOut_1Byte (1 *U + &U _led7seg_digits * -> _tens_EW `ux -> -> # *U &U _led7seg_digits `ui `ux ]
+"147
+[e ( _ShiftOut_1Byte (1 *U + &U _led7seg_digits * -> _ones_NS `ux -> -> # *U &U _led7seg_digits `ui `ux ]
+"148
+[e ( _ShiftOut_1Byte (1 *U + &U _led7seg_digits * -> _tens_NS `ux -> -> # *U &U _led7seg_digits `ui `ux ]
+"150
+[e = _RC2 -> -> 1 `i `b ]
+"151
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"152
+[e = _RC2 -> -> 0 `i `b ]
+"153
+[e :UE 168 ]
+}
+"156
+[v _Clear_Display `(v ~T0 @X0 1 ef ]
+{
+[e :U _Clear_Display ]
+[f ]
+"157
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < _i -> 8 `i 170  ]
+[e $U 171  ]
+[e :U 170 ]
+{
+"158
+[e ( _ShiftOut_1Byte (1 -> -> 255 `i `uc ]
+"159
+}
+[e ++ _i -> 1 `i ]
+[e $ < _i -> 8 `i 170  ]
+[e :U 171 ]
+}
+"160
+[e = _RC2 -> -> 1 `i `b ]
+"161
+[e ( __delay (1 -> * -> -> 1 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"162
+[e = _RC2 -> -> 0 `i `b ]
+"163
+[e :UE 169 ]
+}
